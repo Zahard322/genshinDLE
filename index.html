@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenshinDLE - Угадай персонажа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>✨ GENSHINDLE GAME ✨</h1>
+        <p id="count-label">Загрузка персонажей...</p>
+
+        <div class="input-frame">
+            <label for="guess-input">Введите имя:</label>
+            <input type="text" id="guess-input" placeholder="Например: Коломбина">
+            <button id="check-btn">Проверить</button>
+        </div>
+
+        <div id="txt-log"></div>
+
+        <button id="action-btn" class="btn-giveup">Сдаться 🏳️</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
