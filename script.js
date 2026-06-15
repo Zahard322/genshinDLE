@@ -12,7 +12,7 @@ const txtLog = document.getElementById('txt-log');
 const actionBtn = document.getElementById('action-btn');
 
 // Загрузка базы данных персонажей
-fetch('characters.json')
+fetch(`characters.json?v=${Date.now()}`)
     .then(response => response.json())
     .then(data => {
         db = data;
